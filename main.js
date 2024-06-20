@@ -86,8 +86,8 @@
 // console.log(num2);
 // console.log(arr3);
 
-const arr4 = [10, 20];
-const arr5 = [30, 40];
+// const arr4 = [10, 20];
+// const arr5 = [30, 40];
 
 // const arr6 = [...arr4];
 // console.log(arr6);
@@ -95,9 +95,14 @@ const arr5 = [30, 40];
 // const arr7 = [...arr4, ...arr5];
 // console.log(arr7);
 
-const arr8 = [...arr4];
-console.log(arr8);
+// const arr8 = [...arr4];
+// console.log(arr8);
 
-arr4[0] = 20;
-console.log(arr8);
+// arr4[0] = 20;
+// console.log(arr8);
+
+const nameArr = ["田中","山田", "もも"];
+for (let index = 0; index < nameArr.length; index++){
+    console.log(nameArr[index]);
+}
 
